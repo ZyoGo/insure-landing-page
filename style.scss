@@ -1,0 +1,119 @@
+//font from google
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+//color
+//primary color
+$cl-darkViolet: hsl(256, 26%, 20%);
+$cl-grayishBlue: hsl(216, 30%, 68%);
+
+//netural color
+$cl-veryDarkViolet: hsl(270, 9%, 17%);
+$cl-darkGrayishViolet: hsl(273, 4%, 51%);
+$cl-veryLightGray: hsl(0, 0%, 98%);
+
+//font
+$f-karla: "Karla", sans-serif;
+$f-dm: "DM Serif Display", serif;
+
+//config global
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.cl-white {
+    color: white;
+}
+
+.f-weight400 {
+    font-weight: 400;
+}
+
+.f-weight700 {
+    font-weight: 700;
+}
+
+.vpl-hover-nav {
+    border: 2px solid red;
+    padding: 5px 30px;
+}
+
+//config
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    // width: 1440px;
+}
+
+//header (navbar)
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    // border: 2px solid black;
+
+    img {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    nav {
+        // width: 600px;
+
+        // border: 2px solid red;
+        ul {
+            margin-right: 30px;
+            font-family: $f-dm;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            color: $cl-grayishBlue;
+            list-style: none;
+
+            li {
+                margin: auto 20px;
+            }
+        }
+    }
+}
+
+//jumbotron
+.container-jumbotron {
+    // height: 800px;
+    background-color: $cl-darkViolet;
+    border: 2px solid green;
+    display: flex;
+    color: white;
+    .jumbotron-left {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 50px 0 30px;
+        h2 {
+            font-family: $f-dm;
+            font-size: 3.7rem;
+            font-weight: 400;
+            line-height: 1em;
+        }
+    }
+    .jumbotron-left-border {
+        width: 100px;
+        border: 1px solid white;
+    }
+    .jumbotron-right {
+        margin: 150px 80px 0 0;
+    }
+}
+
+.vpl-hover {
+    border: 2px solid red;
+    padding: 10px 30px;
+}
