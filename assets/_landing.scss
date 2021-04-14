@@ -1,0 +1,51 @@
+.landing {
+    background-color: $darkViolet;
+    position: relative;
+    &__left {
+        width: 80%;
+        padding: 7rem 0;
+        margin-left: 20rem;
+        margin-right: 5rem;
+        color: white;
+        max-width: 640px;
+        h2 {
+            font-family: $dm;
+            line-height: 5rem;
+            font-size: 4.5rem;
+            width: 85%;
+        }
+        p {
+            font-family: $karla;
+            font-size: 1.0625rem;
+            line-height: 1.7rem;
+            width: 89%;
+        }
+        a {
+            font-family: $karla;
+            border: 2px solid white;
+            padding: 0.6rem 2rem;
+            color: white;
+        }
+        hr {
+            width: 30%;
+            margin-bottom: 4rem;
+        }
+    }
+}
+
+.img__intro-main {
+    position: relative;
+    // right: 0;
+    top: 7rem;
+}
+
+.intro__pattern {
+    width: auto;
+    position: absolute;
+    &--left {
+        top: 29rem;
+    }
+    &--right {
+        right: 0;
+    }
+}
