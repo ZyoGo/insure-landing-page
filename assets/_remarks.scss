@@ -1,0 +1,39 @@
+.remarks {
+  z-index: 1;
+  margin: 5rem auto;
+  padding: 4.5rem;
+  background-color: $darkViolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+
+  &__left {
+    font-family: $dm;
+    font-weight: 400;
+    font-size: 4rem;
+    color: white;
+    width: 50%;
+  }
+
+  &__right {
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    right: 2rem;
+    color: white;
+    font-family: $karla;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background: none;
+    outline: none;
+  }
+
+  &__pattern {
+    z-index: -1;
+    top: 120rem;
+    right: 0;
+    position: absolute;
+    display: initial;
+    visibility: visible;
+  }
+}
