@@ -19,6 +19,7 @@ body {
   &-jc-sb {
     justify-content: space-between;
   }
+
   &-jc-c {
     justify-content: center;
   }
@@ -43,4 +44,9 @@ body {
 //margin
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
 }

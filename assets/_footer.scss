@@ -1,0 +1,43 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  background-color: $veryLightGray;
+  margin-top: 12rem;
+
+  .patter-footer {
+    position: absolute;
+    display: initial;
+    visibility: visible;
+    left: 0;
+  }
+
+  .footer {
+    margin: 5.5rem auto;
+    width: 70%;
+    z-index: 2;
+
+    &__heading {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__logo {
+      align-self: center;
+    }
+
+    &__iconList {
+      margin: 0 0.3rem;
+    }
+
+    hr {
+      margin-top: 2.3rem;
+    }
+
+    &__company {
+      margin-top: 2.3rem;
+    }
+  }
+}
