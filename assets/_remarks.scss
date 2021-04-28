@@ -1,7 +1,6 @@
 .remarks {
   position: relative;
   overflow: hidden;
-  // z-index: 1;
   margin: 5rem auto;
   padding: 2.5rem 5rem;
   background-color: $darkViolet;
@@ -30,7 +29,6 @@
   }
 
   &__pattern {
-    // z-index: -1;
     right: -0.2rem;
     position: absolute;
     width: 40%;
